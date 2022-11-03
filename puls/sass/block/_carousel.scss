@@ -1,0 +1,29 @@
+.carousel {
+    padding: 81px 0;
+    text-align: center;
+}
+.carousel__inner{
+    position: relative;
+   
+}
+.carousel-wrapper {
+    
+}
+.prev, .next {
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 240px;
+    border: none;
+    background: none;
+    
+    img {
+        width: 31px;
+        height: 50px;
+    }
+}
+.next {
+    right: 240px;
+    left: auto;
+}
