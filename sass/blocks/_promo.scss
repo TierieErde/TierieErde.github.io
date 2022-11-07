@@ -1,0 +1,84 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background-color: $bg-color1;
+    &__descr {
+        display: flex;
+        justify-content: space-between;
+    }
+        &__descr__text{
+            position: absolute;
+            top: 8%;
+            left: 8%;
+            margin-left: 10px;
+            }
+        &__text__hello {
+                font-size: 40px;
+                font-weight: 700;
+                margin-top: 80px;
+                color:$second-color;
+            }
+        h2 {
+            font-size: 30px;
+            font-weight: 700;
+            margin-top: 20px;
+            color: white;
+        }
+        h1 {
+            width: 480px;
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 20px;
+            color: rgba(126, 161, 140, 1);
+            -webkit-text-stroke: 1px rgb(126, 161, 140);
+            transition: 1s;
+            &:hover {
+                -webkit-text-stroke: 1px rgb(27, 240, 119);
+                color:  rgba(126, 161, 140, 0);
+            }
+        }
+        
+        &__photo__link {
+            right: 10%;
+            position: absolute;
+            top: 16%;
+            width: 20vw;
+            height: auto;
+            &__main {
+                position: relative;
+                z-index: 3;
+                width: 20vw;
+                height: auto;
+                transition: 0.5s all;
+                border: 0px solid $second-color;
+                border-radius: 2px;
+                &:hover {
+                    transform: scale(1.1);
+                    border: 2px solid $second-color;
+                
+                }
+            }
+             &__background {
+                position: absolute;
+                right: 13%;
+                top: 10.5%;
+                height: 100%;
+                width: 20vw;
+                z-index: 0;
+                transition: 1s all;
+                opacity: 0.27;
+                &:hover {
+                    transform: scale(1.22);
+                    right:9%;
+                    opacity: 1;
+                }
+                    
+            }   
+        } 
+        
+    }
+    canvas{
+        height:100vh;
+        background-color: $bg-color1;
+        opacity: 0.1;
+    }

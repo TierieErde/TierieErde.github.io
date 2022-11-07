@@ -1,0 +1,153 @@
+.Contacs {
+    z-index: 0;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: $bg-color2;
+    position: relative;
+    overflow: hidden;
+    &__title{
+        pointer-events: none;
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        font-size: 40px;
+        color: $second-color;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    &__wrapper{
+        pointer-events: none;
+        position: relative;
+        z-index: 2;
+        display: flex;
+    }
+    &__subtitle {
+        // text-align: center;
+        font-size: 26px;
+        color: $third-color;
+        font-weight: 500;
+        margin-bottom: 24px;
+    }
+    &__links {
+        width: 50%;
+        margin-right: 50px;
+        display: flex;
+        flex-direction: column;
+        a {
+        width:fit-content;
+        margin-bottom: 10px;
+        display: inline-block;   
+        pointer-events: fill;
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+        transition: 0.3s all;
+            &:hover {
+            color: $second-color;
+            }
+        i {
+            padding-right: 5px;
+            line-height: 20px;
+        }
+        &:hover {
+            svg path {
+                fill: #29BE66;
+            }
+        }
+        }
+    }
+    &__formarea {
+        width: 50%;
+        margin-left: 50px;
+    }
+    &__bgrd {
+        margin-top: 2px;
+        z-index: 0;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items:center;
+        max-width: 100vw;
+        height: 200px;
+    }
+    &__input{
+        margin-top: 30px;
+        width: 50%;
+        pointer-events: fill;
+        color:white;
+        input{
+            width: 100%;
+            height: 100%;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 40px;
+            color:$second-color;
+            background-color: $bg-color1;
+            border:1px solid $second-color;
+            border-radius: 4px;
+        }
+        label {
+            
+            height: 18px;
+        }
+    }
+    &__Textarea {
+        margin-top: 30px;
+        width: 50%;
+        height: 70px;
+        color:white;
+        pointer-events: fill;
+        textarea {
+            width: 100%;
+            height: 100%;
+            resize: none;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 17px;
+            color:$second-color;
+            background-color: $bg-color1;
+            border-radius: 4px;
+        }
+    }
+    &__btn {
+        margin-top: 50px;
+        border:none;
+        background-color: $second-color;
+        padding: 7px;
+        color:white;
+        border-radius:10px;
+        z-index: 2;
+        pointer-events: fill;
+        cursor:pointer;
+    }
+    &__policy{margin-top: 20px;
+        display: flex;
+     
+    }
+    &__checkbox{
+        pointer-events: fill;
+    }
+    &__policy__descr {
+        margin-left: 10px;
+        color: white;
+        a{
+            color: $second-color;
+            pointer-events: fill;
+        }
+    }
+}
+.square {
+    border-radius: 3px;
+    width: 16px;
+    height: 16px;
+    background: $bg-color1;
+    margin: 2px;
+    box-shadow: 0 0 2px #000;
+    transition: 0.9s ease-in-out;
+  }
+  .square:hover {
+    transition-duration: 0s ;
+    filter: blur(2px) brightness(1.8); 
+  }

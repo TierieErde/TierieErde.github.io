@@ -1,0 +1,32 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;700&display=swap');
+@import 'libs/font.scss';
+
+@import 'base/variables';
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    // overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color2;
+}
+.container {
+    overflow: hidden;
+    max-width: 90%;
+    margin: 0 auto;
+}
+@import 'blocks/header'; 
+@import 'blocks/promo';
+@import 'blocks/sidepanel';
+@import 'blocks/info';
+@import 'blocks/menu';
+@import 'blocks/webdev';
+@import 'blocks/Design';
+@import 'blocks/Contacs';
+@import 'blocks/media';

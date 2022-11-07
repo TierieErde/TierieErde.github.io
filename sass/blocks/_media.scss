@@ -1,0 +1,345 @@
+@media (max-width:1400px) {
+    .container {
+        max-width: 1300px;
+    }
+    .info .grid-elem {
+        font-size: 14px;
+    }
+    .promo__photo__link__main {
+        width: 30vw; 
+        right: 30%;
+    } 
+    .promo__photo__link__background{
+        width: 30vw; 
+        right: 0%;
+    } 
+}
+
+@media (max-width:1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo__photo__link__main {
+        width: 30vw; 
+        right: 30%;
+    } 
+    .promo__photo__link__background{
+        width: 30vw; 
+        right: 0%;
+    } 
+    .info__exp {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .info__exp__block {
+        width: fit-content;
+        
+        margin: 0 auto;
+    }
+    .info__skills__gridcontainer {
+        grid-template-columns: repeat(3, minmax(80px, auto));
+    }
+}
+
+@media (max-width:992px) {
+    .container {
+        max-width: 720px;
+    }
+    .sidepanel{
+        display: none;
+    }
+    .header__links a {
+        font-size: 16px;
+    }
+    .promo__photo__link__main {
+        width: 30vw; 
+        right: 30%;
+    } 
+    .promo__photo__link__background{
+        width: 30vw; 
+        right: 0%;
+    } 
+    .promo {
+        width: 100%;
+        height: 100%;
+    }
+    .pg-canvas {
+        width: 100%;
+        height: 100%;
+    }
+    .info__exp {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .info__descr {
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 16px;
+    }
+    .info .grid-elem {
+        font-size: 13px;
+    }
+    .Contacs__input{
+        width: 90%;
+    }
+    .Contacs__Textarea {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .container {
+        max-width: 100%;
+    }
+    .header__links a {
+        font-size: 17px;
+    }
+    .promo h2 {
+        font-size: 16px;
+    }
+    .promo h1 {
+        font-size: 17px;
+    }
+    .promo__photo__link {
+        top: 50%;
+        right: 50%;
+    }
+    .promo__photo__link__main {
+        width: 40vw; 
+    } 
+    .promo__photo__link__background{
+        width: 40vw; 
+        right: -100%;
+    } 
+    .header__links {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0;
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .header__links__line {
+        display: none;
+    }
+    .menu__close {
+        height: 50px;
+        width: 50px;
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .menu__social {
+        width: 300px;
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .info__descr {
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 16px;
+    }
+    .info__about{
+        width: 100%;
+    }
+    .info__exp {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    .info__exp__block {
+        width: fit-content;
+        
+        margin: 0 auto;
+    }
+    .info__exp__educations{
+        font-size: 14px;
+        width: fit-content;
+    }
+    .info .grid-elem {
+        
+        img {
+            height: 20px;
+            margin-left: 0;
+            margin-top: 10px;
+            margin-right: 5px;
+        }
+        font-weight: 700;
+        font-size: 11px;
+    }
+    .info__tooltip {
+        position: relative;
+    }
+    .Contacs__links {
+        font-size: 16px;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .Contacs__formarea {
+        font-size: 16px;
+        margin: 0;
+    }
+    .Contacs__input{
+        width: 90%;
+    }
+    .Contacs__Textarea {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .Contacs__subtitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:576px) {
+    .header {
+        width: 100%;
+    }
+    .promo__photo__link {
+        top: 55%;
+        right: 50%;
+        transform: translateX(25%);
+    }
+    .promo__descr__text {
+        width: fit-content;
+    }
+    .header__links a {
+        font-size: 12px;
+    }
+    .promo__text__hello {
+        display: inline-block;
+        width: fit-content;
+    }
+    .promo {
+        width: fit-content;
+        height: fit-content;
+    }
+    .promo h2 {
+        display: inline-block;
+        width: fit-content;
+        font-size: 18px;
+    }
+    .promo h1 {
+        display: inline-block;
+        width: fit-content;
+        font-size: 16px;
+    }
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .info {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .info__descr {
+        margin: 0 auto;
+        width: fit-content;
+        font-size: 14px;
+    }
+    .info__tooltip {
+        position: relative;
+    }
+    .pg-canvas {
+        width: 100%;
+    }
+    .promo {
+        min-width: 100% ;
+        height: 100%;
+    }
+    .pg-canvas {
+        width: 100%;
+        height: 100%;
+    }
+    .menu__block {
+        width: 100%;
+        height: 148%;
+    }
+    .menu__close {
+        height: 50px;
+        width: 50px;
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .menu__social {
+        width: 300px;
+        svg {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .info__about{
+        width: 100%;
+    }
+    .info__exp {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+    .info__exp__block {
+        width: fit-content;
+        
+        margin: 0 auto;
+    }
+    .info__exp__educations{
+        font-size: 14px;
+        height: fit-content;
+        width: fit-content;
+    }
+    .info__exp__descr.active.open {
+        font-size: 14px;
+    }
+    .info__skills__gridcontainer {
+        grid-template-columns: repeat(2, minmax(80px, auto));
+        margin-bottom: 20px;
+    }
+   
+    .Design__card{
+        height: 200px;
+        flex: 1;
+    }
+    .Design__card a {
+        font-size: 13px;
+        
+    }
+    .Contacs__links {
+        font-size: 16px;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .Contacs__links a {
+        font-size: 16px;
+    }
+    .Contacs__subtitle {
+        font-size: 14px;
+        
+    }
+    .Contacs__formarea {
+        font-size: 16px;
+        margin: 0;
+    }
+    .Contacs__input{
+        width: 90%;
+    }
+    .Contacs__Textarea {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .Contacs__policy__descr {
+        font-size: 12px;
+    }
+}
+
